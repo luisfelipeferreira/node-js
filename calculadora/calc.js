@@ -1,7 +1,13 @@
-var num1 = 2
-var num2 = 4
+var a = 5
+var b = 6
 
-console.log(`o Resultado da soma de ${num1} e ${num2} é ${som(num1,num2)}`)
+var SomaFunc = require("./som")
+var SubFunc = require("./sub")
+var MulFunc = require("./mul")
+var DivFunc = require("./div")
+
+console.log( `${a}+${b} = ${SomaFunc(a,b)}, ${a}-${b} = ${SubFunc(a,b)}, ${a}*${b} = ${MulFunc(a,b)}, ${a}/${b} = ${DivFunc(a,b)} `)
+
 
 
 /* 
