@@ -1,10 +1,10 @@
 var a = 5
 var b = 6
 
-var SomaFunc = require("./som")
-var SubFunc = require("./sub")
-var MulFunc = require("./mul")
-var DivFunc = require("./div")
+var SomaFunc = require("./functions/som")
+var SubFunc = require("./functions/sub")
+var MulFunc = require("./functions/mul")
+var DivFunc = require("./functions/div")
 
 console.log( `${a}+${b} = ${SomaFunc(a,b)}, ${a}-${b} = ${SubFunc(a,b)}, ${a}*${b} = ${MulFunc(a,b)}, ${a}/${b} = ${DivFunc(a,b)} `)
 
